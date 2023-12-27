@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NacSalvador.Paginas.PageNac"
+             xmlns:android ="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             android:TabbedPage.ToolbarPlacement="Bottom" 
+             BarBackgroundColor="#33282e" 
+             UnselectedTabColor="WhiteSmoke" 
+             SelectedTabColor="White"
+             >
+    <!--Pages can be added as references or inline 0C1323-->
+    <ContentPage Title="RÁDIO"
+                 BackgroundColor="#0C1323" >
+        <StackLayout BackgroundColor="#0C1323" Margin="100">
+            
+            <Label Text="Radio NacSalvador" 
+                   HorizontalOptions="Center" 
+                   FontSize="Title" 
+                   TextColor="White"/>
+            
+            <Label x:Name="lblmusic"             
+                   HorizontalOptions="Center" 
+                   TextDecorations="Underline" 
+                   FontSize="Subtitle" 
+                   Text="Ao vivo"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   />
+            
+            <Frame HorizontalOptions="Center"
+                   VerticalOptions="Center" 
+                   CornerRadius="150" 
+                   Padding="0" 
+                   IsClippedToBounds="True" >
+                
+                <StackLayout>
+                    <Image HorizontalOptions="Center" 
+                       VerticalOptions="Center" 
+                       Source="imagine_Nac" 
+                       HeightRequest="300" 
+                       WidthRequest="300"/>
+                    
+                </StackLayout>                   
+            </Frame>
+
+            <Image WidthRequest="100" Margin="10"
+                   Source="image_som.gif" 
+                   IsAnimationPlaying="{Binding isPlaying, Mode=TwoWay}"/>
+
+            <Grid Grid.Row="0"
+                  BackgroundColor="#13191D"
+                  VerticalOptions="Center"
+                  HorizontalOptions="Center"
+                  HeightRequest="40"
+                  WidthRequest="200"
+                  >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>                           
+
+                <ImageButton 
+                        x:Name="Btplay_pouse"
+                        Source="pause_icon.png"
+                        Grid.Column="0"                        
+                        BackgroundColor="#33282e"
+                        Clicked="play_pouse"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="PORTAL" >
+        <StackLayout>
+            <WebView Source="https://nacsalvador.com.br" VerticalOptions="FillAndExpand"/>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="YOUTUBE">
+        <StackLayout>
+            <WebView  Source="https://youtube.com/@NACRADIOETV?si=7pO0VKFBCeN-oyrQ" VerticalOptions="FillAndExpand"/>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>

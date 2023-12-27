@@ -1,0 +1,15 @@
+C:\Dev\NacSalvador\NacSalvador\NacSalvador\bin\Debug\netstandard2.0\NacSalvador.deps.json
+C:\Dev\NacSalvador\NacSalvador\NacSalvador\bin\Debug\netstandard2.0\NacSalvador.dll
+C:\Dev\NacSalvador\NacSalvador\NacSalvador\bin\Debug\netstandard2.0\ref\NacSalvador.dll
+C:\Dev\NacSalvador\NacSalvador\NacSalvador\bin\Debug\netstandard2.0\NacSalvador.pdb
+C:\Dev\NacSalvador\NacSalvador\NacSalvador\obj\Debug\netstandard2.0\NacSalvador.csproj.AssemblyReference.cache
+C:\Dev\NacSalvador\NacSalvador\NacSalvador\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Dev\NacSalvador\NacSalvador\NacSalvador\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Dev\NacSalvador\NacSalvador\NacSalvador\obj\Debug\netstandard2.0\Paginas\PageNac.xaml.g.cs
+C:\Dev\NacSalvador\NacSalvador\NacSalvador\obj\Debug\netstandard2.0\NacSalvador.csproj.CoreCompileInputs.cache
+C:\Dev\NacSalvador\NacSalvador\NacSalvador\obj\Debug\netstandard2.0\NacSalvador.AssemblyInfoInputs.cache
+C:\Dev\NacSalvador\NacSalvador\NacSalvador\obj\Debug\netstandard2.0\NacSalvador.AssemblyInfo.cs
+C:\Dev\NacSalvador\NacSalvador\NacSalvador\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Dev\NacSalvador\NacSalvador\NacSalvador\obj\Debug\netstandard2.0\NacSalvador.dll
+C:\Dev\NacSalvador\NacSalvador\NacSalvador\obj\Debug\netstandard2.0\ref\NacSalvador.dll
+C:\Dev\NacSalvador\NacSalvador\NacSalvador\obj\Debug\netstandard2.0\NacSalvador.pdb
